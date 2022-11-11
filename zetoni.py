@@ -1,8 +1,6 @@
 print("Cik labo?")
 
 labs=0
-labs1=0
-labs2=0
 count=0
 mylist= []
 
@@ -10,6 +8,7 @@ N = int(input("N = "))
 M1=int(input("M1 = "))
 M2=int(input("M2 = "))
 step=int(input("G = "))
+
 for cheack in range(1,N+1):
     if cheack%M1==0 or cheack%M2==0:
         mylist.append(cheack)
